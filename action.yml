@@ -1,7 +1,8 @@
 name: 'Strong Password Generator'
+author: 'Aammir Mirza'
 description: 'Generates a complex password for lab/dev or temporary purposes'
 branding:
-  icon: 'align-center'  
+  icon: 'delete'  
   color: 'blue'
 inputs:
   length: 
