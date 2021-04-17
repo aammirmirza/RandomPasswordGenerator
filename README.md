@@ -1,4 +1,4 @@
-# Password-Generator
+# RandomPasswordGenerator
 
 This action generates a random password.
 It will contain at least one non-capital, one capital, one number and one special character.
