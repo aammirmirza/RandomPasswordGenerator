@@ -24,6 +24,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - id: generatedpassword
-        uses: aammirmirza/RandomPasswordGenerator@v1
+        uses: aammirmirza/customTasks@v1
       - run: echo "${{ steps.generatedpassword.outputs.password }}"
         shell: pwsh
