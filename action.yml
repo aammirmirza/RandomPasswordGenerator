@@ -2,7 +2,7 @@ name: 'Random Password Generator'
 author: 'Aammir Mirza'
 description: 'Generates a complex password for lab/dev or temporary purposes based on entered numbers of characters'
 branding:
-  icon: 'delete'  
+  icon: 'key'  
   color: 'blue'
 inputs:
   length: 
