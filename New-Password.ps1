@@ -6,10 +6,6 @@
     It will than removes the similar characters (like I & l)
     .PARAMETER length
     The length of the password
-    .NOTES
-    Written by Barbara Forbes
-    @Ba4bes
-    https://4bes.nl
     #>
 param(
     [parameter(Mandatory = $true)]
