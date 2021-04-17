@@ -25,5 +25,7 @@ jobs:
 
       - id: generatedpassword
         uses: aammirmirza/customTasks@v1
+        with:
+          length: 10
       - run: echo "${{ steps.generatedpassword.outputs.password }}"
         shell: pwsh
