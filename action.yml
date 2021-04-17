@@ -1,17 +1,17 @@
-name: 'Strong Password Generator'
+name: 'Random Password Generator'
 author: 'Aammir Mirza'
-description: 'Generates a complex password for lab/dev or temporary purposes'
+description: 'Generates a complex password for lab/dev or temporary purposes based on entered numbers of characters'
 branding:
   icon: 'delete'  
   color: 'blue'
 inputs:
   length: 
-    description:  'the amount of characters in the password. Defaults to 24'
+    description:  'the amount of characters in the password. Defaults to 20'
     required: false
-    default: '24'
+    default: '20'
 outputs:
   password:
-    description: "the password that was generated"
+    description: "the password that is generated - "
     value: "${{ steps.passwordgenerator.outputs.password }}"
 runs:
   using: "composite"
